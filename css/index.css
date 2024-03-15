@@ -284,7 +284,7 @@ body {
     object-fit: cover;
 }
 
-.conedor2cuerpo {
+.conedor2cuerpo { 
     color: #ffffff;
     background-image: url(../img/bg.jpg);
     background-repeat: no-repeat;
