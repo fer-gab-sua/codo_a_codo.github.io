@@ -1,0 +1,26 @@
+.imagen_fondo{
+    background-image: url(img.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 20em;
+}
+
+
+.titulo{
+    color: azure;
+    margin-left: 1vw;
+}
+
+.parrafo{
+    color: azure;
+    margin: 0vw 1vw 1vw 2vw;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #e7e7e7; /* Puedes cambiar el color de fondo según tus preferencias */
+    z-index: 1000; /* Asegura que esté por encima de otros elementos */
+}
