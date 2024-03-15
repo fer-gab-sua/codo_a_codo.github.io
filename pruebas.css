@@ -24,3 +24,8 @@
     background-color: #e7e7e7; /* Puedes cambiar el color de fondo según tus preferencias */
     z-index: 1000; /* Asegura que esté por encima de otros elementos */
 }
+
+.titulo_contenedor{
+    text-align: center;
+    color: gray;
+}
