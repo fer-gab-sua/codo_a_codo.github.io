@@ -221,31 +221,31 @@ header {
 }
 
 .seccion1 {
-    background-image: url(img/seccion1.png);
+    background-image: url(/img/seccion1.png);
     background-size: cover;
     min-height: 100vh;
 }
 
 .seccion2 {
-    background-image: url(img/seccion2.png);
+    background-image: url(./img/seccion2.png);
     background-size: cover;
     min-height: 100vh;
 }
 
 .seccion3 {
-    background-image: url(img/seccion3.png);
+    background-image: url(..img/seccion3.png);
     background-size: cover;
     min-height: 100vh;
 }
 
 .seccion4 {
-    background-image: url(img/seccion4.png);
+    background-image: url(../img/seccion4.png);
     background-size: cover;
     min-height: 100vh;
 }
 
 .seccion5 {
-    background-image: url(img/seccion5.png);
+    background-image: url(./img/seccion5.png);
     background-size: cover;
     min-height: 100vh;
 }
