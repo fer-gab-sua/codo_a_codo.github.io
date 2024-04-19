@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
 
 * {
     margin: 0;
@@ -6,10 +7,7 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
-}
-
-body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Inter", sans-serif; 
 }
 
 header {
@@ -31,7 +29,7 @@ header {
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    background-color: #26637125;
+    background-color: #26637157;
     z-index: 1000;
 }
 
@@ -43,17 +41,9 @@ header {
 .logo {
     color: #FF7C20;
     margin-left: 10px;
-    font-weight: bold;
     display: flex;
     align-items: center;
-}
-
-.logo-svg {
-    height: 80px;
-    fill: red;
-}
-.logo h1{
-    font-size: 25px;
+    height: 50px;
 }
 
 .menu .navbar ul li {
@@ -70,7 +60,8 @@ header {
 }
 
 .menu .navbar ul li a:hover{
-    color: #5cbed4;
+    color: #FF7C20;
+    font-weight: bold;
 }
 
 
@@ -104,7 +95,7 @@ header {
 .header-txt h1{
     font-size: 100px;
     text-align: center;
-    font-weight: 700;
+    font-size: 6vw;
     text-transform: uppercase;
     color: #ffffff;
     margin-bottom: 25px;
@@ -114,8 +105,9 @@ header {
 .header-txt .contorno{
     color: transparent; /* Hacer el texto transparente para que solo se vea el contorno */
     -webkit-text-stroke: 2px rgb(255, 255, 255); /* Añadir un contorno de 2px en negro */
-    font-size: 100px;
+    font-size: 6vw;
     text-transform: uppercase;
+    font-family: "Arial", sans-serif; 
 }
 
 .header-txt p{
@@ -131,7 +123,7 @@ header {
     border-radius: 25px;
     text-transform: uppercase;
     color: #ffffff;
-    background-color: #099fa6;
+    background-color: #FF7C20;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
     font-family: "Roboto Condensed", sans-serif;
 
@@ -140,7 +132,7 @@ header {
 
 
 .btn-1:hover {
-    background-color: #266371;
+    background-color: #714626;
 }
 
 .images {
@@ -203,109 +195,110 @@ header {
 
 }
 /* ACA EMPIEZA EL CODIGO DE CADA UNO */
+
+
 .seccion1-experiencia {
-    margin-top: 10px;
-    display: grid;
-    grid-template-columns: 2fr 2fr;
-    position: absolute;
-    width: 100%;
-    gap: 00px;
-    justify-items: center; /* Centra los elementos horizontalmente */
-
-
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 88%;
+    margin: 0 auto;
+    padding: 50px;
+    justify-content: center;
 }
 
-.imagen-izq {
+/*div de la imagen*/
+.div-img{
+    min-width: 600px;
+    height: 600px;
+    width: 600px;
     position: relative;
-    height: 550px;
-    
+    text-align: center;
 }
 
-.imagen-izq img {
-    position: absolute;
-}
-
-.sec1-img1 {
+.sec1-img1{
+    position:relative;
+    left: -80px;
     z-index: 1;
     width: 430px;
     height: 450px;
     object-fit: cover;
 }
 
-.sec1-img2 {
+.sec1-img2{
+    position: relative;
+    left: 0px;
+    top: -150px;
     z-index: 2;
-    top: 280px; /* Ajusta la posición vertical */
-    left: 90px; /* Ajusta la posición horizontal */
     width: 300px;
-    height: 250px;
+    height: 300px;
     object-fit: cover;
 }
 
-.sec1-img3 {
-    z-index: 3;
-    top: 150px; /* Ajusta la posición vertical */
-    left: 140px; /* Ajusta la posición horizontal */
-    width: 350px;
-    height: 340px;
+.sec1-img3{
+    position: relative;
+    left: 100px;
+    top: -600px;
+    z-index: 2;
+    width: 400px;
+    height: 400px;
     object-fit: cover;
 }
 
-.text-derecho {
-    padding: 10px;
-    /*text-align: center;*/
+
+/*div del texto*/
+.div-text{
+    min-width: 600px;
+    height: 600px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
+}
+.div-text h2{
+    font-size: 40px ;
+    font-weight: bold;
+}
+
+.div-text ol li{
+    text-align: left;
+    margin: 25px;
+    font-size: 18px;
+    font-weight: bold;
+    list-style-image: url(../img/viñeta.png);
+}
+
+.seccion1-experiencia2 {
+    margin-top: 40px;
+    background-color: aquamarine;
+    position: relative;
+    height: 800px;
+}
+
+.img-container {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    text-align: center;
+}
+
+.img-container h1 {
+    color: white;
+    font-size: 4vw;
+    font-weight: bold;
+}
+
+.sec2-img1 {
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+}
+
+.sec2-img2 {
+    width: 100%;
     height: 500px;
-
-}
-
-.text-derecho ol li{
-    list-style-type: disc; /* Utiliza puntos para las viñetas */
-    text-align: left; /* Alinea el texto a la izquierda */
-    margin-bottom: 10px;
-}
-
-.text-derecho ol {
-    margin: 50px;
-}
-.text-derecho .btn-1{
-    margin-bottom: 50px;
-    margin-left: 100px;
-    background-color: #FF7C20;
-}
-
-
-.seccion2 {
-    background-image: url(../img/seccion2.png);
-    background-size: cover;
-    min-height: 100vh;
-}
-
-.seccion3 {
-    background-image: url(../img/seccion3.png);
-    background-size: cover;
-    min-height: 100vh;
-}
-
-.seccion4 {
-    background-image: url(../img/seccion4.png);
-    background-size: cover;
-    min-height: 100vh;
-}
-
-.seccion5 {
-    background-image: url(../img/seccion5.png);
-    background-size: cover;
-    min-height: 100vh;
-}
-
-.seccion6 {
-    background-image: url(../img/seccion6.png);
-    background-size: cover;
-    min-height: 100vh;
-}
-
-.seccion7 {
-    background-image: url(../img/seccion7.png);
-    background-size: cover;
-    min-height: 100vh;
+    object-fit: cover;
 }
