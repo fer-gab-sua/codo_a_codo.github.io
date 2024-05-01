@@ -11,7 +11,7 @@
 }
 
 header {
-    background-image: url(../img/img-home-cab.jpg);
+    background-image: url(../img/Refugios-HOME/Refugios-de-Montana-Patagonia-Argentina.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -378,14 +378,166 @@ header {
 }
 
 
+/*Session 4*/
+.seccion4 {
+    margin-top: 40px;
+    position: relative;
+    height: 1000px;
+}
+.sec4-img1 {
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+    background-color: #714626;
+}
+.img-container-s4 {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -90%);
+    width: 90%;
+    text-align: center;
+}
+
+.img-container-s4 h1 {
+    color: white;
+    font-size: 3vw;
+    font-weight: bold;
+    width: 40%;
+}
+
+.img-container-s4 p {
+    color: white;
+    width: 40%;
+}
+
+
+.cont-img-s4-2 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    
+}
+
+.cont-img-s4 p {
+    color: rgb(0, 0, 0);
+    width: 90%;
+    padding: auto;
+    margin: auto;
+}
 
 
 
 
+.sec4-img2 {
+    width: 90%;
+    height: 500px;
+    object-fit: cover;
+}
 
 
+/*Session 5*/
+.seccion5 {
+    margin-top: 40px;
+    position: relative;
+    height: 1000px;
+}
 
 
+.sec5-img1 {
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+    background-color: #714626;
+}
+
+.img-container-s5 {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    width: 90%;
+    text-align: center;
+}
+
+.img-container-s5 h1 {
+    color: white;
+    font-size: 3vw;
+    font-weight: bold;
+    width: 40%;
+}
+
+.img-container-s5 p {
+    color: white;
+    width: 40%;
+}
+
+
+.cont-img-s5-2 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    
+}
+
+.cont-img-s5 p {
+    color: rgb(0, 0, 0);
+    width: 90%;
+    padding: auto;
+    margin: auto;
+}
+
+.sec5-img2 {
+    width: 90%;
+    height: 300px;
+    object-fit: cover;
+}
+
+
+/*CONTACTANOS*/
+.contactanos {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #273749;
+
+    align-items: center;
+
+}
+
+.contenedorform {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.partizq {
+    width: 50%;
+    min-width: 500px;
+}
+
+.partizq h2{
+    color: #FF7C20;
+}
+.partizq p{
+    color: azure;
+}
+
+
+.partder {
+    min-width: 500px;
+}
+
+.custom-bg {
+    background-color: #273749 !important;
+
+}
+
+.custom-bg::placeholder {
+    color: rgb(165, 165, 165) !important;
+
+}
 
 
 
