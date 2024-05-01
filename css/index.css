@@ -269,20 +269,22 @@ header {
     list-style-image: url(../img/viñeta.png);
 }
 
+
+/*sECCION DE UNA EXPERIENCIA CON DOS IMAGENES*/
 .seccion1-experiencia2 {
     margin-top: 40px;
-    background-color: aquamarine;
     position: relative;
-    height: 800px;
+    height: 1000px;
 }
 
 .img-container {
     position: absolute;
     top: 90%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -100%);
     width: 90%;
     text-align: center;
+    
 }
 
 .img-container h1 {
@@ -301,4 +303,158 @@ header {
     width: 100%;
     height: 500px;
     object-fit: cover;
+}
+
+/*sesion 3*/
+.seccion2-experiencia {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 88%;
+    margin: 0 auto;
+    padding: 50px;
+    justify-content: center;
+}
+
+.div-text-s2e1{
+    min-width: 600px;
+    height: 600px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.div-text-s2e1 h2{
+    font-size: 40px ;
+    padding: 40px;
+    font-weight: bold;
+}
+
+.div-text-s2e1 p{
+    color: #FF7C20;
+    font-weight: bold;
+    text-align: start;
+}
+
+.btn-s2e1 {
+    margin: 10px 180px 0px 180px;
+    text-align: center;
+}
+
+.sec1-img1-s2e1{
+    position:relative;
+    left: 120px;
+    z-index: 1;
+    width: 430px;
+    height: 450px;
+    object-fit: cover;
+}
+
+.sec1-img2-s2e1{
+    position: relative;
+    left: 0px;
+    top: -290px;
+    z-index: 2;
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+
+
+
+/*SESSION 3 DE CARD*/
+.session3-card {
+    display: flex;
+    position: relative;
+    text-align: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.session3-card .card{
+    margin: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*ESTE ES EL FOOTER*/
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Footer izq: 1 parte, Footer der: 2 partes */
+
+    width: 80%;
+    margin: auto;
+}
+
+.footer-izq {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.footer-izq img {
+    max-width: 300px; /* Ajusta el tamaño del logo según sea necesario */
+    height: auto;
+}
+
+.footer-der {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columnas en el footer derecho */
+}
+
+.footer-der > div {
+    padding-right: 20px; /* Espacio entre columnas */
+}
+
+.titulos-footer {
+    margin-bottom: 5px;
+    font-size:medium;
+    font-weight:800;
+    color: #FF7C20;
+}
+
+
+.footer-der ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-der ul li {
+    margin-bottom: 5px;
+    font-size:small;
+    font-weight:600;
+}
+
+.link-footer {
+    text-decoration: none;
+    color: black;
+}
+
+.link-footer:hover {
+    color:#FF7C20
 }
