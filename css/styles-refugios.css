@@ -248,6 +248,62 @@ h2, h3, h4 {
     }
       */
 
+      /*CONTACTANOS*/
+.contactanos {
+    padding-top: 90px;
+    padding-bottom: 90px;
+    background-color: #273749;
+
+    align-items: center;
+
+}
+
+.contenedorform {
+    width: 80%;
+    margin: auto;
+    gap: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.partizq {
+    width: 50%;
+    min-width: 500px;
+}
+
+.partizq h2{
+    color: #FF7C20;
+}
+.partizq p{
+    color: azure;
+}
+
+
+.partder {
+    min-width: 500px;
+}
+
+.custom-bg {
+    background-color: #273749 !important;
+
+}
+
+.custom-bg::placeholder {
+    color: rgb(165, 165, 165) !important;
+
+}
+
+        /* aca termina CONTACTANOS*/
+        
+.a-especial {
+    color: #c0c0c0;
+    text-decoration: none;
+
+    }
+
+
 .footer-info {
     display: flex;
     justify-content: space-between;
