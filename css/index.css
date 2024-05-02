@@ -397,7 +397,6 @@ header {
     transform: translate(-50%, -90%);
     width: 90%;
     text-align: center;
-    background-color: #714626;
 }
 
 .img-container-s4 h1 {
@@ -405,13 +404,11 @@ header {
     font-size: 3vw;
     font-weight: bold;
     width: 40%;
-    background-color: #FF7C20;
 }
 
 .img-container-s4 p {
     color: white;
     width: 40%;
-    background-color: #FF7C20;
 }
 
 
@@ -419,7 +416,6 @@ header {
     width: 100%;
     display: flex;
     align-items: center;
-    background-color: #68462e;
     
 }
 
@@ -430,7 +426,6 @@ header {
     margin: auto;
     text-align: justify;
     padding: 2%;
-    background-color: #273749;
     height: 300px;
     
 }
@@ -480,6 +475,7 @@ header {
 .img-container-s5 p {
     color: white;
     width: 40%;
+    text-align: justify;
 }
 
 
@@ -495,6 +491,7 @@ header {
     width: 90%;
     padding: auto;
     margin: auto;
+    text-align: justify;
 }
 
 .sec5-img2 {
