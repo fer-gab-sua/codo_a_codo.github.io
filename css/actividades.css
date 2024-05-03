@@ -1,25 +1,17 @@
+@charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
 
-* {
-    margin: 0;
+*{
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
+    font-family: Arial, Helvetica, sans-serif
 }
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-}
-
-header {
-    background-image: url(../img/img-home-cab.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    position: relative;
-    align-items: center;
 }
 
 .menu {
@@ -88,63 +80,160 @@ header {
 }
 
 
+/* LA IMAGEN DE FONDO */
+header{
+    width: 100%;
+    height: 725px;
+    background-image: url(../img/img-home-cab.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    position: relative;
+    align-items: center;
+}
 
-.header-txt{
-    position: relative; /* Establecer la posición relativa para permitir el posicionamiento absoluto del botón */
+/* EL CONTAINER DEL HEADER */
+.t-center{
+    position: relative;
     width: 100%;
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh; /* Establecer la altura para que ocupe toda la pantalla */
+    height: 100vh;
+    }
+
+/* TITULO */
+h1{
+        font-size: 100px;
+        color: white;
+        text-align: center;
+        margin-bottom: 150px;
+    }
+
+/* Texto transparente del titulo */
+.t-transparent{
+    color: transparent;
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: white;
 }
 
-
-.header-txt h1{
-    font-size: 100px;
-    text-align: center;
-    font-weight: 700;
-    text-transform: uppercase;
-    color: #ffffff;
-    margin-bottom: 25px;
-    align-items: center;
-
-}
-.header-txt .contorno{
-    color: transparent; /* Hacer el texto transparente para que solo se vea el contorno */
-    -webkit-text-stroke: 2px rgb(255, 255, 255); /* Añadir un contorno de 2px en negro */
-    font-size: 100px;
-    text-transform: uppercase;
-}
-
-.header-txt p{
+/* Descripcion del header */
+.t-center p{
+    width: 70%;
     font-size: 18px;
     color: #ffffff;
-    font-weight: 500;
     margin-bottom: 25px;
     text-align: center;
 }
 
-.btn-1{
-    padding: 13px 20px;
-    border-radius: 25px;
+/* Boton del header */
+.t-center a{
     text-transform: uppercase;
-    color: #ffffff;
-    background-color: #099fa6;
+    margin-top: 40px;
+    background-color: orange;
+    padding: 12px 30px;
+    border-radius: 9px;
+    -webkit-text-fill-color: rgb(255, 255, 255);
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
-    font-family: "Roboto Condensed", sans-serif;
+}
 
+section h2{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+    font-size: 45px;
+}
 
+img{
+max-width: 95%;
+height: 540px;
+}
+
+.contenedor{
+max-width: 1600px;
+width: 100%;
+margin: auto
+}
+
+.entrada{
+position: relative;
+display: flex;
+flex-direction: column;
+text-align: center;
+justify-content: center;
+align-items: center;
+}
+
+.entrada h3{
+position: absolute;
+margin-bottom: 4rem;
+color: rgb(255, 255, 255);
+font-size: 2rem;
+text-transform: uppercase;
+}
+
+.entrada p{
+position: absolute;
+margin-top: 8rem;
+color: rgb(255, 255, 255);
+font-size: 1.2rem;
+text-transform: uppercase;
+}
+
+.entrada a{
+position: absolute;
+margin-top: 16rem;
+justify-content: center;
+background-color: orange;
+padding: 12px 30px;
+border-radius: 7px;
+}
+
+.entrada a:hover{
+    background-color: rgb(225, 154, 22)
+}
+
+.entrada a:visited{
+color: #ffffff;
+}
+
+.titulo{
+margin-top: 3rem;
+text-align: center;
+}
+
+.titulo h3{
+font-size: 35px;
+color: rgb(75, 75, 75);
+}
+
+.titulo p{
+margin-top: 1.5rem;
+font-size: 18px;
+color: rgb(75,75,75);
+}
+
+.dias ol li{
+margin-top: 1.2rem;
+font-size: 35px;
+}
+
+.dias ol p{
+font-weight: bold;
+margin-top: 1.2rem;
 }
 
 
-.btn-1:hover {
-    background-color: #266371;
+@media (min-width: 480px) {
+    .dos-columnas {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 3rem;
+    }
 }
-
-
-
 
 @media(max-width:1023px) {
     .menu {
@@ -174,27 +263,25 @@ header {
         display: none;
     }
 
-    .header {
+    .t-center{
         padding: 80px 30px 50px 30px;
         align-items: self-start;
         flex-direction: column;
         align-items: center;
     }
 
-    .header-txt {
+    .t-center p{
         text-align: center;
         width: 100%;
         margin-bottom: 30px;
     }
-    .header-txt h1 {
+    h1{
         margin-bottom: 10px;
     }
-    .images {
+    img{
         position: initial;
         width: 300px;
         height: 300px;
     }
 
 }
-
-/* ACA EMPIEZA EL CODIGO DE CADA UNO */
