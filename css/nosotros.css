@@ -1,0 +1,358 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Inter", sans-serif; 
+}
+
+header {
+    background-image: url(../img/Refugios-HOME/Refugios-de-Montana-Patagonia-Argentina.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+.menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #26637157;
+    z-index: 1000;
+}
+
+.menu a {
+    text-decoration: none;
+}
+
+
+.logo {
+    color: #FF7C20;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a{
+    font-size: 18px;
+    padding: 10px;
+    color: #ffffff;
+    display: block;
+    font-weight: bold;
+}
+
+.menu .navbar ul li a:hover{
+    color: #FF7C20;
+    font-weight: bold;
+}
+
+
+#menu {
+    display: none;
+}
+
+.menu-icono {
+    width: 35px;
+}
+
+.menu label {
+    cursor:  pointer;
+    display: none;
+}
+
+
+
+.header-txt{
+    position: relative; /* Establecer la posición relativa para permitir el posicionamiento absoluto del botón */
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Establecer la altura para que ocupe toda la pantalla */
+}
+
+
+.header-txt h1{
+    font-size: 100px;
+    text-align: center;
+    font-size: 6vw;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-bottom: 25px;
+    align-items: center;
+
+}
+.header-txt .contorno{
+    color: transparent; /* Hacer el texto transparente para que solo se vea el contorno */
+    -webkit-text-stroke: 2px rgb(255, 255, 255); /* Añadir un contorno de 2px en negro */
+    font-size: 6vw;
+    text-transform: uppercase;
+    font-family: "Arial", sans-serif; 
+}
+
+.header-txt p{
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 500;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.btn-1{
+    padding: 13px 20px;
+    border-radius: 25px;
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: #FF7C20;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    font-family: "Roboto Condensed", sans-serif;
+
+
+}
+
+
+.btn-1:hover {
+    background-color: #714626;
+}
+
+.images {
+    width: 800px;
+    height: 380px;
+    position: absolute;
+    right: 0;
+}
+
+
+
+@media(max-width:1023px) {
+    .menu {
+        padding: 30px ;
+    }
+    .menu label {
+        display: initial;
+    }
+    .menu .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #3f3f3f48;
+        backdrop-filter: blur(5px);
+        display: none;
+    }
+    .menu .navbar ul li {
+        width: 100%;
+    }
+
+    #menu:checked ~ .navbar{
+        display: initial;
+    }
+
+    .icons {
+        display: none;
+    }
+
+    .header {
+        padding: 80px 30px 50px 30px;
+        align-items: self-start;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header-txt {
+        text-align: center;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .header-txt h1 {
+        margin-bottom: 10px;
+    }
+    .images {
+        position: initial;
+        width: 300px;
+        height: 300px;
+    }
+
+}
+/* ACA EMPIEZA EL CODIGO DE CADA UNO */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*CONTACTANOS*/
+.contactanos {
+    margin-top: 50px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #273749;
+
+    align-items: center;
+
+}
+
+.contenedorform {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.partizq {
+    width: 50%;
+    min-width: 500px;
+}
+
+.partizq h2{
+    color: #FF7C20;
+}
+.partizq p{
+    color: azure;
+}
+
+
+.partder {
+    min-width: 500px;
+}
+
+.custom-bg {
+    background-color: #273749 !important;
+
+}
+
+.custom-bg::placeholder {
+    color: rgb(165, 165, 165) !important;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*ESTE ES EL FOOTER*/
+.a-especial {
+    color: #c0c0c0;
+    text-decoration: none;
+
+    }
+
+
+.footer-info {
+    display: flex;
+    justify-content: space-between;
+    height: 160px;
+    margin-top: 70px;
+    margin-bottom: 40px;
+
+}
+.footer-logo {
+    width: 100px;
+    margin-left: 50px;
+    margin-bottom: 24px;
+}
+.footer-links {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 50px;
+    
+}
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    padding-right: 100px;
+    justify-content: flex-start;
+    margin-bottom: 24px;
+    align-content: space-evenly;
+}
+
+.footer-list :hover {
+    color: #273749;
+}
+
+.img-footer-logo {
+    height: 40px;
+
+}
+.redes-sociales {
+    margin-top: 24px;
+    margin-right: 20px;
+    margin-bottom: 24px;
+}
+
+.bi-linkedin :hover {
+    color: #273749;
+}
+.bi-twitter-x :hover {
+    color: #273749;
+}
+.bi--instagram :hover {
+    color: #273749;
+}
+.bi :hover {
+    color: #273749;
+}
+.bi {
+    color: #FF7C20;
+    margin-right: 20px;
+}
