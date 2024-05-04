@@ -507,17 +507,17 @@ header {
     padding-top: 40px;
     padding-bottom: 40px;
     background-color: #273749;
-
     align-items: center;
 
 }
 
 .contenedorform {
-    width: 70%;
+    width: 90%;
     margin: auto;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+
 }
 
 .partizq {
@@ -539,6 +539,7 @@ header {
 
 .custom-bg {
     background-color: #273749 !important;
+    color: white !important;
 
 }
 
@@ -546,9 +547,6 @@ header {
     color: rgb(165, 165, 165) !important;
 
 }
-
-
-
 
 
 
