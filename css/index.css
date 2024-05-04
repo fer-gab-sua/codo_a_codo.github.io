@@ -201,7 +201,7 @@ header {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 88%;
+    width: 100%;
     margin: 0 auto;
     padding: 50px;
     justify-content: center;
@@ -212,9 +212,11 @@ header {
     min-width: 600px;
     height: 600px;
     width: 600px;
-    position: relative;
+    position: flex;
     text-align: center;
+
 }
+
 
 .sec1-img1{
     position:relative;
@@ -246,6 +248,8 @@ header {
 }
 
 
+
+
 /*div del texto*/
 .div-text{
     min-width: 600px;
@@ -268,6 +272,26 @@ header {
     font-weight: bold;
     list-style-image: url(../img/viñeta.png);
 }
+@media(max-width:1023px) {
+    .div-img{
+        min-width: 500px;
+        height: 500px;
+        width: 500px;
+    }
+    .sec1-img1{
+        width: 330px;
+        height: 350px;
+    }
+    .sec1-img2{
+        width: 300px;
+        height: 300px;
+    }
+    .sec1-img3{
+        width: 300px;
+        height: 300px;
+
+    }
+}
 
 
 /*sECCION DE UNA EXPERIENCIA CON DOS IMAGENES*/
@@ -275,6 +299,7 @@ header {
     margin-top: 40px;
     position: relative;
     height: 1000px;
+
 }
 
 .img-container {
@@ -304,16 +329,33 @@ header {
     height: 500px;
     object-fit: cover;
 }
+@media(max-width:1023px) {
+    .seccion1-experiencia2 {
+        height: 720px;
+    }
+    .img-container {
+        top: 90%;
+    }
+    .img-container h1{
+        font-size: 5vw
+    }
+
+}
+
+
+
+
 
 /*sesion 3*/
 .seccion2-experiencia {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 88%;
+    width: 100%;
     margin: 0 auto;
     padding: 50px;
     justify-content: center;
+
 }
 
 .div-text-s2e1{
@@ -323,18 +365,21 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center;
+
 }
 
 .div-text-s2e1 h2{
     font-size: 40px ;
     padding: 40px;
     font-weight: bold;
+    
 }
 
 .div-text-s2e1 p{
     color: #FF7C20;
     font-weight: bold;
-    text-align: start;
+    text-align: justify;
+    
 }
 
 .btn-s2e1 {
@@ -349,6 +394,7 @@ header {
     width: 430px;
     height: 450px;
     object-fit: cover;
+    
 }
 
 .sec1-img2-s2e1{
@@ -359,8 +405,26 @@ header {
     width: 400px;
     height: 400px;
     object-fit: cover;
+
 }
 
+@media(max-width:1023px) {
+    .seccion2-experiencia {
+        padding: 10px;
+    }
+
+    .div-text-s2e1{
+        order: 2;
+        width: 100%; /* Para que ocupe todo el ancho */
+        height: auto; /* Para ajustarse al contenido */
+        min-width: auto;
+    }
+
+    .sec1-img1-s2e1{
+        width: 330px;
+        left: 80px;
+    }
+}
 
 
 /*SESSION 3 DE CARD*/
@@ -378,24 +442,42 @@ header {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*Session 4*/
 .seccion4 {
-    margin-top: 40px;
+
     position: relative;
-    height: 1000px;
+
+    
 }
 .sec4-img1 {
     width: 100%;
     height: 700px;
     object-fit: cover;
+    
 
 }
 .img-container-s4 {
     position: absolute;
     top: 100%;
     left: 50%;
-    transform: translate(-50%, -90%);
-    width: 90%;
+    transform: translate(-50%, -50%);
+    width: 98%;
     text-align: center;
 }
 
@@ -403,12 +485,15 @@ header {
     color: white;
     font-size: 3vw;
     font-weight: bold;
-    width: 40%;
+    width: 600px;
+
 }
 
 .img-container-s4 p {
     color: white;
-    width: 40%;
+    width: 600px;
+
+    text-align: justify;
 }
 
 
@@ -416,6 +501,7 @@ header {
     width: 100%;
     display: flex;
     align-items: center;
+
     
 }
 
@@ -430,29 +516,65 @@ header {
     
 }
 
-
-
-
 .sec4-img2 {
-    width: 700px;
+    width: 90%;
     height: 500px;
     object-fit: cover;
+}
+
+@media(max-width:1023px) {
+    .seccion4 {
+        height: 150vb;
+    }
+
+    .img-container-s4 {
+        top: 0;
+        left: 10px;
+        transform: none;
+        text-align: left;
+        
+    }
+    .img-container-s4 h1 {
+        width: 100%;
+        font-size: 5vw;
+        margin-top: 60px;
+    }
+    .img-container-s4 p {
+        width: 100%;
+        font-size: 2vw;
+        padding: 10px;
+    }
+    .cont-img-s4-2 {
+        flex-direction: column;
+        align-items:center;
+        
+    }
+    .cont-img-s4 {
+        margin-top: 20px;
+        text-align: center;
+    }
+    
+    .sec4-img2 {
+        width: 100%;
+    }
+
 }
 
 
 /*Session 5*/
 .seccion5 {
-    margin-top: 140px;
+    margin-top: 700px;
     position: relative;
     height: 1000px;
+
 }
 
 
 .sec5-img1 {
     width: 100%;
-    height: 700px;
+    height: 50%;
     object-fit: cover;
-    background-color: #714626;
+
 }
 
 .img-container-s5 {
@@ -500,6 +622,34 @@ header {
     object-fit: cover;
 }
 
+@media(max-width:1023px) {
+    .seccion5 {
+        margin-top: 450px;
+        height: auto;
+}
+    
+    .img-container-s5 {
+        position: relative;
+        bottom: -1550px;
+        padding-top: 50px;
+    }
+
+
+    .img-container-s5 h1{
+        width: 100%;
+        font-size: 50px;
+    }
+    .img-container-s5 p{
+        width: 100%;
+    }
+    
+    .cont-img-s5-2 {
+        flex-direction: column;
+        align-items:center;
+    }
+
+}
+
 
 /*CONTACTANOS*/
 .contactanos {
@@ -534,7 +684,9 @@ header {
 
 
 .partder {
-    min-width: 500px;
+    min-width: 400px;
+
+    
 }
 
 .custom-bg {
@@ -547,6 +699,7 @@ header {
     color: rgb(165, 165, 165) !important;
 
 }
+
 
 
 
@@ -615,4 +768,11 @@ footer {
 
 .link-footer:hover {
     color:#FF7C20
+}
+
+@media(max-width:1023px) {
+    .footer-izq img {
+        max-width: 50px; /* Ajusta el tamaño del logo según sea necesario */
+        height: auto;
+    }
 }
