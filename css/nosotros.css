@@ -196,12 +196,73 @@ header {
 
 }
 /* ACA EMPIEZA EL CODIGO DE CADA UNO */
+.titulo {
+    width: 100%;
+    color: #273749;
+    margin: 50px;
+    text-align: center;
 
+}
+.card-group {
+    width: 80%;
+    margin: 0 auto;
+}
+.card-title {
+    color: #FF7C20 !important;
+    text-align: center;
+}
 
+.card-text {
+    text-align: justify;
+}
 
+/*SEGUNDA PARTE*/
 
+.nuestra_exp {
+    background-image: url(../img/Refugios-NOSOTROS/Experiencia-Refugios-de-Montana-backpacker-traveling-forest.jpg);
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column; /* Para colocar el título arriba del párrafo */
+    justify-content: center; /* Centra verticalmente */
+    align-items: center; /* Centra horizontalmente */
+    text-align: center;
+    margin-top: 140px;
+    margin-bottom: 140px;
+}
+.nuestra_exp h1{
+    margin-top: 20px;
+    font-size: 40px;
+}
+.nuestra_exp h1,
+.nuestra_exp p {
+    color: white; /* Cambiar color del texto para que sea visible */
+    padding: 15px; /* Añadir espacio alrededor del texto */
+}
 
+.nuestra_exp p{
+    width: 90%;
+    text-align: justify
+}
 
+.tercerasec {
+
+    text-align: center;
+    align-items: center;
+    margin: 100px;
+}
+
+.tercerasec h2{
+    color: #FF7C20;
+    text-decoration: double;
+    font-weight: 900;
+}
+
+.segundoTit{
+    font-size: 30px;
+    font-weight: 900;
+}
 
 
 
