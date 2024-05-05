@@ -24,7 +24,7 @@ header {
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    background-color: #26637157;
+    background-color:#273749;
     z-index: 1000;
 }
 
@@ -97,28 +97,46 @@ header {
     -webkit-text-stroke: 2px rgb(255, 255, 255);  /*Añadir un contorno de 2px en negro */
     font-size: 6vw;
     text-transform: uppercase;
-    font-family: "Arial", sans-serif; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
 }
 
 .header-txt p{
     margin-top: 150px;
     font-size: 18px;
     color: #ffffff;
-    font-weight: 500;
+    font-weight: 900;
     margin-bottom: 50px;
     text-align: center;
+    font-size: arial;
 }
 
 .btn-1{
-    padding: 13px 20px;
-    border-radius: 25px;
     text-transform: uppercase;
-    color: #ffffff;
+    color: #FEDCC4;
     background-color: #FF7C20;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
-    font-family: "Roboto Condensed", sans-serif;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 16px 70px;
+    border-radius: 10px;
 }
 
+.btn-1-contactanos {
+    text-transform: uppercase;
+    color: #FEDCC4;
+    background-color: #FF7C20;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    padding:16px 70px;
+    border-radius: 10px;
+    text-align: center;
+
+
+}
 a {
     text-decoration: none;
     }
@@ -128,16 +146,6 @@ body {
 .container {
     margin: 0;
     }
-
-.btn-1 {
-    padding: 16px 70px;
-    border-radius: 10px;
-    color: #FEDCC4;
-    background-color: #FF7C20;
-    font-family: "Inter", sans-serif;
-
-}
-
 
 .btn-1:hover {
     background-color:#EE6300;
@@ -216,17 +224,21 @@ h2, h3, h4 {
 
 .videoText {
     text-align: center;
-    width: 75%;
+    width: 80%;
     font-weight: 300;
+    color: #FF7C20
+
 }
 
 .subtitulo {
-    text-align: center;
     font-weight: 300;
     line-height: 1.5;
     color: #f2f2f2;
     display: flex;
-    padding: 20px;
+    padding-bottom: 5%;
+    padding-top: 1%;
+    padding-right: 5%;
+    padding-left:5%
 
 
 }
@@ -300,6 +312,7 @@ h2, h3, h4 {
     text-align: left;
     position: relative;
     padding-left: 60px;
+    color: #FF7C20;
 
 }
 
@@ -308,11 +321,7 @@ h2, h3, h4 {
     padding-bottom: 40px;
     text-align: center;
     position: relative;
-}
-
-.Contactanos {
-    background-color: #273749;
-    height: 550px;
+    color: #FF7C20;
 }
 
 .titulo-2 {
@@ -348,10 +357,11 @@ h2, h3, h4 {
             height: 550px;
             position: relative;
             margin: 20px;
-            /*
+            
             border-radius: 16px;
-            box-shadow: 5px 5px 12px #c0c0c0 ;*/
+            box-shadow: 5px 5px 12px #c0c0c0 ;
             }
+
 
 .card .card-image {
     width: 100%; 
@@ -365,6 +375,7 @@ h2, h3, h4 {
         line-height: 2;
         text-align: center;
         padding-top: 20px;
+        color:#FF7C20
         }
 
 .card .card-text {
@@ -411,6 +422,12 @@ h2, h3, h4 {
       */
 
 /*CONTACTANOS*/
+
+.Contactanos {
+    background-color: #273749;
+    height: 500px;
+    margin-top: 60px;
+}
 .contactanos {
     padding-top: 90px;
     padding-bottom: 90px;
@@ -460,7 +477,7 @@ h2, h3, h4 {
         /* aca termina CONTACTANOS*/
         
 .a-especial {
-    color: #c0c0c0;
+    color: #273749;
     text-decoration: none;
 
     }
@@ -493,12 +510,17 @@ h2, h3, h4 {
     justify-content: flex-start;
     margin-bottom: 24px;
     align-content: space-evenly;
+
 }
 
 .footer-list :hover {
-    color: #273749;
+    color: #FF9E5A;
 }
 
+.CommonLabel{
+    color: #FF9E5A;
+
+}
 .img-footer-logo {
     height: 40px;
 
@@ -508,18 +530,12 @@ h2, h3, h4 {
     margin-top: 24px;
     margin-right: 20px;
     margin-bottom: 24px;
-}
+    color: #FF9E5A;
 
-.bi-linkedin :hover {
-    color: #273749;
 }
-
-.bi-twitter-x :hover {
+.redes-sociales :hover {
     color: #273749;
-}
 
-.bi--instagram :hover {
-    color: #273749;
 }
 
 .bi :hover {
@@ -530,7 +546,3 @@ h2, h3, h4 {
     color: #FF7C20;
     margin-right: 20px;
 }
-
-    
-
-    
