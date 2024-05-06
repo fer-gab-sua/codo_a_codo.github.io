@@ -744,7 +744,6 @@ footer {
 }
 
 .footer-der {
-    align-items: ;
     padding: 10px;
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* 3 columnas en el footer derecho */
@@ -797,4 +796,26 @@ footer {
         margin-left: 40px;
     }
     
+}
+
+
+.redes-sociales {
+    margin-right: 100px;
+    color: #FF9E5A;
+    display: flex;
+    justify-content: end;
+    
+
+}
+.redes-sociales :hover {
+    color: #273749;
+
+}
+.bi :hover {
+    color: #273749;
+}
+
+.bi {
+    color: #FF7C20;
+    margin-right: 20px;
 }
