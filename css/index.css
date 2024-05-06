@@ -252,9 +252,9 @@ header {
 
 /*div del texto*/
 .div-text{
-    min-width: 600px;
-    height: 600px;
-    width: 600px;
+    min-width: 500px;
+    height: 500px;
+    width: 500px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -359,9 +359,9 @@ header {
 }
 
 .div-text-s2e1{
-    min-width: 600px;
-    height: 600px;
-    width: 600px;
+    min-width: 500px;
+    height: 500px;
+    width: 500px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -702,8 +702,12 @@ header {
 
 
 
-
-
+@media(max-width:1023px) {
+    .partizq {
+        width: 100%;
+        min-width: 100%;
+    }
+}
 
 
 
@@ -725,21 +729,29 @@ footer {
     align-items: center;
     justify-content: center;
     padding: 10px;
+    
 }
 
-.footer-izq img {
-    max-width: 300px; /* Ajusta el tamaño del logo según sea necesario */
-    height: auto;
+
+.footer-izq-img {
+    max-width: 500px;
+    width: 330px;
+    height: 50px;
+    background-size: cover;
+    background-image: url(../img/ico/RefugiosDeMontania-Logo.png);
+    margin-right: 40px;
+    margin-left: 40px;
 }
 
 .footer-der {
+    align-items: ;
     padding: 10px;
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* 3 columnas en el footer derecho */
 }
 
 .footer-der > div {
-    padding-right: 20px; /* Espacio entre columnas */
+    padding-right: 10vw; /* Espacio entre columnas */
 }
 
 .titulos-footer {
@@ -771,8 +783,18 @@ footer {
 }
 
 @media(max-width:1023px) {
-    .footer-izq img {
-        max-width: 50px; /* Ajusta el tamaño del logo según sea necesario */
-        height: auto;
+    .footer-der {
+        display: flex;
+        flex-direction: column;
     }
+    .footer-izq-img {
+        max-width: 100px;
+        width: 100px;
+        height: 100px;
+        background-size: cover;
+        background-image: url(../img/ico/ico_refugio_de_montana.png);
+        margin-right: 40px;
+        margin-left: 40px;
+    }
+    
 }
