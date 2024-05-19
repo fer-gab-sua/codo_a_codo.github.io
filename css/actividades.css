@@ -216,14 +216,100 @@ font-size: 18px;
 color: rgb(75,75,75);
 }
 
-.dias ol li{
-margin-top: 1.2rem;
-font-size: 35px;
+.diass{
+display: flex;
+flex-direction: column;
 }
 
-.dias ol p{
-font-weight: bold;
+.diass .dias{
+margin-top: 15px;
+margin-bottom: 12px;
+}
+
+
+.diass ol li{
+margin-top: 1rem;
+font-size: 15px;
+font-weight: 500;
+}
+
+.diass ol p{
+font-size: 22px;
+font-weight: 700;
 margin-top: 1.2rem;
+}
+
+.diass a{
+text-align: center;
+text-transform: uppercase;
+background-color: orange;
+padding: 12px 30px;
+border-radius: 9px;
+-webkit-text-fill-color: rgb(255, 255, 255);
+box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+.boton{
+display: flex;
+flex-direction: column;
+text-align: center;
+align-items: center;
+margin-top: 3rem;
+}
+
+.boton p{
+text-align: left;
+margin-bottom: 1.5rem;}
+
+.lista-a{
+display: none;
+}
+
+.lista-a.abierto{
+display: block;
+}
+
+.fa-chevron-down{
+margin-left: 10px;
+color: orange;
+}
+
+.recomendaciones{
+position: relative;
+display: flex;
+flex-direction: column;
+text-align: center;
+justify-content: center;
+align-items: center;
+margin-top: 10rem;
+}
+
+.recomendaciones a{
+position: absolute;
+margin-top: 20rem;
+justify-content: center;
+background-color: orange;
+padding: 12px 30px;
+border-radius: 7px;
+}
+
+.recomendaciones a:visited{
+color: #ffffff;
+}
+
+.recomendaciones h3{
+position: absolute;
+margin-bottom: 8rem;
+color: rgb(255, 255, 255);
+font-size: 2rem;
+text-transform: uppercase;
+}
+
+.recomendaciones p{
+position: absolute;
+max-width: 500px;
+margin-top: 6rem;
+color: rgb(255, 255, 255);
 }
 
 
