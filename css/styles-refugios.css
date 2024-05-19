@@ -58,6 +58,7 @@ header {
     font-weight: bold;
 }
 
+
 #menu {
     display: none;
 }
@@ -70,6 +71,57 @@ header {
     cursor:  pointer;
     display: none;
 }
+
+@media(max-width:1023px) {
+    .menu {
+        padding: 30px ;
+    }
+    .menu label {
+        display: initial;
+    }
+    .menu .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #3f3f3f48;
+        backdrop-filter: blur(5px);
+        display: none;
+    }
+    .menu .navbar ul li {
+        width: 100%;
+    }
+
+    #menu:checked ~ .navbar{
+        display: initial;
+    }
+
+    .icons {
+        display: none;
+    }
+
+    .header {
+        padding: 80px 30px 50px 30px;
+        align-items: self-start;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header-txt {
+        text-align: center;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .header-txt h1 {
+        margin-bottom: 10px;
+    }
+    .images {
+        position: initial;
+        width: 300px;
+        height: 300px;
+    }
+}
+
 
 .header-txt{
     position: relative;  /*Establecer la posición relativa para permitir el posicionamiento absoluto del botón */
@@ -122,6 +174,12 @@ header {
     padding: 16px 70px;
     border-radius: 10px;
 }
+.btn-1 :hover {
+    background-color: #EE6300;
+    box-shadow: 0 6 10px #FF9E5A;
+    box-shadow: 5px 5px 12px #c0c0c0 ;
+
+}
 
 .btn-1-contactanos {
     text-transform: uppercase;
@@ -134,11 +192,17 @@ header {
     padding:16px 70px;
     border-radius: 10px;
     text-align: center;
-
+}
+.btn-1-contactanos:hover {
+    background-color:#EE6300;
+    box-shadow: 0 6 10px #FF9E5A;
 
 }
+
+
 a {
     text-decoration: none;
+    color: #c0c0c0;
     }
 body {
     font-family: "Inter", sans-serif;
@@ -147,15 +211,12 @@ body {
     margin: 0;
     }
 
-.btn-1:hover {
-    background-color:#EE6300;
-    box-shadow: 0 6 10px #FF9E5A;
-}
 
+/*
 .logo {
 height: 30px;
 margin: 16px;
-    }
+    }*/
 
 .HeroRefugioVistaAerea {
     position: relative;
@@ -172,6 +233,35 @@ margin: 16px;
     left: 0;
     z-index: -1;
     }
+
+    .videoText {
+        text-align: center;
+        width: 80%;
+        font-weight: 300;
+        color: #FF7C20
+    
+    }
+    
+    .subtitulo {
+        font-weight: 300;
+        line-height: 1.5;
+        color: #f2f2f2;
+        display: flex;
+        padding-bottom: 5%;
+        padding-top: 1%;
+        padding-right: 5%;
+        padding-left:5%
+    }
+    
+    .parrafo1{
+        text-align: center;
+        font-weight: 300;
+        width: 50%;
+        display: flex;
+        justify-items: center;
+    
+    }
+    
 
 h2 {
     font-size: 40px;
@@ -193,10 +283,6 @@ h4 {
     font-weight: 500;
     color: #FF7C20;
     font-family: "Inter", sans-serif;
-    }
-
-a {
-    color: #c0c0c0;
     }
 
 a :hover {
@@ -222,35 +308,6 @@ h2, h3, h4 {
     color: #FF7C20
     }
 
-.videoText {
-    text-align: center;
-    width: 80%;
-    font-weight: 300;
-    color: #FF7C20
-
-}
-
-.subtitulo {
-    font-weight: 300;
-    line-height: 1.5;
-    color: #f2f2f2;
-    display: flex;
-    padding-bottom: 5%;
-    padding-top: 1%;
-    padding-right: 5%;
-    padding-left:5%
-
-
-}
-
-.parrafo1{
-    text-align: center;
-    font-weight: 300;
-    width: 50%;
-    display: flex;
-    justify-items: center;
-
-}
 
 .Busqueda-Refugio-nav { 
     background-color:#f2f2f2;
@@ -357,11 +414,9 @@ h2, h3, h4 {
             height: 550px;
             position: relative;
             margin: 20px;
-            
             border-radius: 16px;
             box-shadow: 5px 5px 12px #c0c0c0 ;
             }
-
 
 .card .card-image {
     width: 100%; 
@@ -477,9 +532,8 @@ h2, h3, h4 {
         /* aca termina CONTACTANOS*/
         
 .a-especial {
-    color: #273749;
+    color: #c0c0c0;
     text-decoration: none;
-
     }
 
 .footer-info {
