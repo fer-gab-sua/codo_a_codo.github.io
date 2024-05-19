@@ -487,7 +487,6 @@ h2, h3, h4 {
     padding-top: 90px;
     padding-bottom: 90px;
     background-color: #273749;
-
     align-items: center;
 
 }
@@ -514,9 +513,9 @@ h2, h3, h4 {
     color: azure;
 }
 
-
 .partder {
     min-width: 500px;
+
 }
 
 .custom-bg {
@@ -526,6 +525,11 @@ h2, h3, h4 {
 
 .custom-bg::placeholder {
     color: rgb(165, 165, 165) !important;
+
+}
+
+.filled-text-color{
+    color: rgb(255, 255, 255) !important;
 
 }
 
