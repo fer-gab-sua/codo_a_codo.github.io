@@ -600,3 +600,10 @@ h2, h3, h4 {
     color: #FF7C20;
     margin-right: 20px;
 }
+
+
+
+.form-check {
+    margin-left: 10px !important;
+    color: rgb(165, 165, 165) !important;
+}
