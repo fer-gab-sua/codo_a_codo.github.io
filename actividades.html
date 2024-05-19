@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Proyecto CaC</title>
     <link rel="stylesheet" href="css/actividades.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+    <script src="desplegable.js"></script>
 </head>
 
 <body>
@@ -13,7 +15,7 @@
             <div class="menu container">
                 <a href="#" class="logo">
                     <img src="img/ico/ico_refugio_de_montana.svg" alt="Logo" class="logo-svg">
-                    <h1>REFUGIOS <br>de MONTAÑA</h1>
+                    <h2>REFUGIOS <br>de MONTAÑA</h2>
                 </a>
                 <input type="checkbox" id="menu" />
                 <label for="menu">
@@ -59,48 +61,61 @@
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit obcaecati, hic optio quidem rem et molestiae! Sequi officiis, aperiam temporibus</p>
                 </div>
 
-                <div class="dias">
+                <div class="diass">
                     <ol>
-                        <li>Día 1:</li>
-                            <p>8:00: Reunión en el Refugio base Cerro Tronador (2150msnm). Presentación del equipo de guías y coordinadores.</p>
-                            <p>9:00</p>
-                            <p>13:00</p>
-                            <p>14:00</p>
-                            <p>15:00</p>
-                            <p>20:00</p>
-                        <li>Día 2:</li>
-                            <p>8:00: Reunión en el Refugio base Cerro Tronador (2150msnm). Presentación del equipo de guías y coordinadores.</p>
-                            <p>9:00</p>
-                            <p>13:00</p>
-                            <p>14:00</p>
-                            <p>15:00</p>
-                            <p>20:00</p>
-                        <li>Día 3:</li>
-                            <p>8:00: Reunión en el Refugio base Cerro Tronador (2150msnm). Presentación del equipo de guías y coordinadores.</p>
-                            <p>9:00</p>
-                            <p>13:00</p>
-                            <p>14:00</p>
-                            <p>15:00</p>
-                            <p>20:00</p>
-                        <li>Coordinadores:</li>
-                            <p>Guía de montaña con experiencia en la zona.</p>
-                            <p>Instructor de primeros auxilios.</p>
-                            <p>Cocinero/a</p>
-                        <li>Ayuda y asistencia:</li>
-                            <p>Radio VHF para comunicación con el Refugio base y otros refugios de la zona.</p>
-                            <p>Kit de primeros auxilios.</p>
-                            <p>Camilla para evacuación en caso de emergencia.</p>
-                        <li>Equipo recomendado:</li>
-                            <p>Mochila de 40-50 litros.</p>
-                            <p>Ropa de abrigo e impermeable.</p>
-                            <p>Botas de trekking.</p>
-                            <p>Gorro, guantes y anteojos de sol.</p>
-                            <p>Protector solar.</p>
-                            <p>Botella de agua y snacks.</p>
+                        <p class="dias">Día 1:<span class="fa fa-chevron-down" aria-hidden="true"></span></p>
+                        <ul class="lista-a">
+                            <li>8:00: Reunión en el Refugio base Cerro Tronador (2150 msnm).</li>
+                            <li>9:00: Inicio de la caminata hacia el Refugio Otto Meiling (2400 msnm). Duracion: 4 horas.</li>
+                            <li>13:00: Almuerzo en el Refugio Otto Meiling. </li>
+                            <li>14:00: Charla informativa sobre seguridad en montaña y primeros auxilios. </li>
+                            <li>15:00: Tiempo libre para descansar, explorar los alrededores del refugio o realizar actividades opcionales como escalada en roca o rappel.</li>
+                            <li>20:00: Cena en el refugio. Fogón y tiempo para compartir experiencias</li>
+                        </ul>
+                        
+                        <p class="dias">Día 2<span class="fa fa-chevron-down" aria-hidden="true"></span></p>
+                        <ul class="lista-a">
+                            <li>9:00</li>
+                            <li>13:00</li>
+                            <li>14:00</li>
+                            <li>15:00</li>
+                            <li>20:00</li>
+                        </ul>
+                        <p class="dias">Día 3<span class="fa fa-chevron-down" aria-hidden="true"></span></p>
+                        <ul class="lista-a">
+                            <li>9:00</li>
+                            <li>13:00</li>
+                            <li>14:00</li>
+                            <li>15:00</li>
+                            <li>20:00</li>
+                        </ul>
+                        <p class="dias">Coordinadores:<span class="fa fa-chevron-down" aria-hidden="true"></span></p>
+                        <ul class="lista-a">
+                            <li>Guía de montaña con experiencia en la zona.</li>
+                            <li>Instructor de primeros auxilios.</li>
+                            <li>Cocinero/a</li>
+                        </ul>
+                        <p class="dias">Ayuda y asistencia:<span class="fa fa-chevron-down" aria-hidden="true"></span></p>
+                        <ul class="lista-a">
+                            <li>Radio VHF para comunicación con el Refugio base y otros refugios de la zona.
+                                Kit de primeros auxilios.
+                                Camilla para evacuación en caso de emergencia.</li>
+                        </ul>
+                        <p class="dias">Equipo recomendado:<span class="fa fa-chevron-down" aria-hidden="true"></span></p>
+                        <ul class="lista-a">
+                            <li>Mochila de 40-50 litros.</li>
+                            <li>Ropa de abrigo e impermeable.</li>
+                            <li>Botas de trekking.</li>
+                            <li>Gorro, guantes y anteojos de sol.</li>
+                            <li>Protector solar.</li>
+                            <li>Botella de agua y snacks.</li>
+                        </ul>
                     </ol>
 
-                    <p>Nota: Este itinerario es solo una referencia y puede varias según las condiciones climáticas y el estado físico del grupo.</p>
-                    <a href="#">Reservar</a>
+                    <div class="boton">
+                        <p>Nota: Este itinerario es solo una referencia y puede varias según las condiciones climáticas y el estado físico del grupo.</p>
+                        <a href="#">Reservar</a>
+                    </div>
 
                 </div>
 
@@ -120,50 +135,80 @@
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam at cupiditate, nobis quo quidem repudiandae, cum praesentium consectetur odit deleniti</p>
                 </div>
 
-                <div class="dias">
+                <div class="diass">
                     <ol>
-                        <li>Día 1:</li>
-                            <p>8:00: Reunión en el Refugio base Cerro Tronador (2150msnm). Presentación del equipo de guías y coordinadores.</p>
-                            <p>9:00</p>
-                            <p>13:00</p>
-                            <p>14:00</p>
-                            <p>15:00</p>
-                            <p>20:00</p>
-                        <li>Día 2:</li>
-                            <p>8:00: Reunión en el Refugio base Cerro Tronador (2150msnm). Presentación del equipo de guías y coordinadores.</p>
-                            <p>9:00</p>
-                            <p>13:00</p>
-                            <p>14:00</p>
-                            <p>15:00</p>
-                            <p>20:00</p>
-                        <li>Día 3:</li>
-                            <p>8:00: Reunión en el Refugio base Cerro Tronador (2150msnm). Presentación del equipo de guías y coordinadores.</p>
-                            <p>9:00</p>
-                            <p>13:00</p>
-                            <p>14:00</p>
-                            <p>15:00</p>
-                            <p>20:00</p>
-                        <li>Coordinadores:</li>
-                            <p>Guía de montaña con experiencia en la zona.</p>
-                            <p>Instructor de primeros auxilios.</p>
-                            <p>Cocinero/a</p>
-                        <li>Ayuda y asistencia:</li>
-                            <p>Radio VHF para comunicación con el Refugio base y otros refugios de la zona.</p>
-                            <p>Kit de primeros auxilios.</p>
-                            <p>Camilla para evacuación en caso de emergencia.</p>
-                        <li>Equipo recomendado:</li>
-                            <p>Mochila de 40-50 litros.</p>
-                            <p>Ropa de abrigo e impermeable.</p>
-                            <p>Botas de trekking.</p>
-                            <p>Gorro, guantes y anteojos de sol.</p>
-                            <p>Protector solar.</p>
-                            <p>Botella de agua y snacks.</p>
+                        <p class="dias">Día 1:<span class="fa fa-chevron-down" aria-hidden="true"></span></p>
+                        <ul class="lista-a">
+                            <li>8:00: Reunión en el Refugio base Cerro Tronador (2150 msnm).</li>
+                            <li>9:00: Inicio de la caminata hacia el Refugio Otto Meiling (2400 msnm). Duracion: 4 horas.</li>
+                            <li>13:00: Almuerzo en el Refugio Otto Meiling. </li>
+                            <li>14:00: Charla informativa sobre seguridad en montaña y primeros auxilios. </li>
+                            <li>15:00: Tiempo libre para descansar, explorar los alrededores del refugio o realizar actividades opcionales como escalada en roca o rappel.</li>
+                            <li>20:00: Cena en el refugio. Fogón y tiempo para compartir experiencias</li>
+                        </ul>
+                        
+                        <p class="dias">Día 2<span class="fa fa-chevron-down" aria-hidden="true"></span></p>
+                        <ul class="lista-a">
+                            <li>9:00</li>
+                            <li>13:00</li>
+                            <li>14:00</li>
+                            <li>15:00</li>
+                            <li>20:00</li>
+                        </ul>
+                        <p class="dias">Día 3<span class="fa fa-chevron-down" aria-hidden="true"></span></p>
+                        <ul class="lista-a">
+                            <li>9:00</li>
+                            <li>13:00</li>
+                            <li>14:00</li>
+                            <li>15:00</li>
+                            <li>20:00</li>
+                        </ul>
+                        <p class="dias">Coordinadores:<span class="fa fa-chevron-down" aria-hidden="true"></span></p>
+                        <ul class="lista-a">
+                            <li>Guía de montaña con experiencia en la zona.</li>
+                            <li>Instructor de primeros auxilios.</li>
+                            <li>Cocinero/a</li>
+                        </ul>
+                        <p class="dias">Ayuda y asistencia:<span class="fa fa-chevron-down" aria-hidden="true"></span></p>
+                        <ul class="lista-a">
+                            <li>Radio VHF para comunicación con el Refugio base y otros refugios de la zona.
+                                Kit de primeros auxilios.
+                                Camilla para evacuación en caso de emergencia.</li>
+                        </ul>
+                        <p class="dias">Equipo recomendado:<span class="fa fa-chevron-down" aria-hidden="true"></span></p>
+                        <ul class="lista-a">
+                            <li>Mochila de 40-50 litros.</li>
+                            <li>Ropa de abrigo e impermeable.</li>
+                            <li>Botas de trekking.</li>
+                            <li>Gorro, guantes y anteojos de sol.</li>
+                            <li>Protector solar.</li>
+                            <li>Botella de agua y snacks.</li>
+                        </ul>
                     </ol>
-
-                    <p>Nota: Este itinerario es solo una referencia y puede varias según las condiciones climáticas y el estado físico del grupo.</p>
-                    <a href="#">Reservar</a>
+                    <div class="boton">
+                        <p>Nota: Este itinerario es solo una referencia y puede varias según las condiciones climáticas y el estado físico del grupo.</p>
+                        <a href="#">Reservar</a>
+                    </div>
                 </div>
 
+            </article>
+
+            <article>
+                <div class="recomendaciones">
+                    <img src="img/Refugios-ACTIVIDADES/Trekking-grupal-Actividad-Refugio-Patagonia-Argentina.jpg" alt="x">
+                    <h3>Recomendaciones</h3>
+                    <p>Recomendamos leer el siguiente documento el cual trae nuestras recomendaciones para que tus vacaciones se disfruten al 100%.</p>
+                    <a href="#">Descargar</a>
+                </div>
+            </article>
+
+            <article>
+                <div class="recomendaciones">
+                    <img src="img/Refugios-ACTIVIDADES/Trekking-grupal-Actividad-Refugio-Patagonia-Argentina.jpg" alt="x">
+                    <h3>Recomendaciones</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos corrupti vel perspiciatis porro? Commodi incidunt iste exercitationem maxime aliquam asperiores, veritatis, ratione repudiandae cum autem qui suscipit necessitatibus debitis voluptatum?</p>
+                    <a href="#">Descargar</a>
+                </div>
             </article>
         </div>
     </section>
