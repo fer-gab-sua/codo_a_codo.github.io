@@ -804,7 +804,7 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr; /* Footer izq: 1 parte, Footer der: 2 partes */
 
-    width: 80%;
+    width: 90%;
     margin: auto;
 }
 
@@ -813,18 +813,17 @@ footer {
     align-items: center;
     justify-content: center;
     padding: 10px;
-    
+
 }
 
 
 .footer-izq-img {
-    max-width: 500px;
     width: 320px;
-    height: 50px;
+    height: 61px;
     background-size: cover;
     background-image: url(../img/ico/RefugiosDeMontania-Logo.png);
-    margin-right: 200px;
-    margin-left: 40px;
+    margin-right: 20%;
+    margin-left: 1px;
 }
 
 .footer-der {
@@ -834,7 +833,8 @@ footer {
 }
 
 .footer-der > div {
-    padding-right: 10vw; /* Espacio entre columnas */
+    padding-right: 5%; /* Espacio entre columnas */
+    margin: 5px;
 }
 
 .titulos-footer {
@@ -851,7 +851,7 @@ footer {
 }
 
 .footer-der ul li {
-    margin-bottom: 5px;
+    margin-bottom: 2px;
     font-size:small;
     font-weight:600;
 }
@@ -868,14 +868,15 @@ footer {
 @media(max-width:1023px) {
     .footer-der {
         display: flex;
-        flex-direction: column;
+        flex-direction: column; 
+
     }
     .footer-izq-img {
         max-width: 100px;
         width: 100px;
-        height: 100px;
+        height: 80px;
         background-size: cover;
-        background-image: url(../img/ico/ico_refugio_de_montana.png);
+        background-image: url(../img/ico/RefugiosDeMontania-Ico.png);
         margin-right: 40px;
         margin-left: 40px;
     }
