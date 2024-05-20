@@ -661,3 +661,7 @@ align-items: flex-start;
 }
 
 
+.form-check {
+    margin-left: 10px !important;
+    color: rgb(165, 165, 165) !important;
+}
