@@ -84,7 +84,7 @@ body {
 header{
     width: 100%;
     height: 725px;
-    background-image: url(../img/img-home-cab.jpg);
+    background-image: url(/codo_a_codo.github.io-main/img/Refugios-ACTIVIDADES/Trekking-grupal-Actividad-Refugio-Patagonia-Argentina.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -226,17 +226,22 @@ margin-top: 15px;
 margin-bottom: 12px;
 }
 
-
-.diass ol li{
+.diass ol li.dias{
+list-style-type: none;
 margin-top: 1rem;
-font-size: 15px;
+font-size: 22px;
+font-weight: 700;
+}
+
+.lista-a li{
+list-style-type: disc;
+margin-bottom: 1rem;
+margin-left: 2rem;
 font-weight: 500;
 }
 
-.diass ol p{
-font-size: 22px;
-font-weight: 700;
-margin-top: 1.2rem;
+.lista-a li::marker{
+    color: orange;
 }
 
 .diass a{
@@ -254,12 +259,13 @@ display: flex;
 flex-direction: column;
 text-align: center;
 align-items: center;
-margin-top: 3rem;
+margin-top: 2rem;
 }
 
 .boton p{
 text-align: left;
-margin-bottom: 1.5rem;}
+margin-bottom: 1.2rem;
+}
 
 .lista-a{
 display: none;
@@ -268,6 +274,7 @@ display: none;
 .lista-a.abierto{
 display: block;
 }
+
 
 .fa-chevron-down{
 margin-left: 10px;
@@ -312,6 +319,19 @@ margin-top: 6rem;
 color: rgb(255, 255, 255);
 }
 
+.imagenreco{
+width: 703px;
+height: 540px;
+background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)),url(/codo_a_codo.github.io-main/img/Refugios-ACTIVIDADES/Recomendaciones-caminatas-trekking-escaladas-Patagonia-Argentina.jpg);
+background-position: center;
+background-size: cover;}
+
+.imagenreco1{
+width: 703px;
+height: 540px;
+background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)), url(/codo_a_codo.github.io-main/fotodefondo.jpg);
+background-position: center;
+background-size: cover;}
 
 @media (min-width: 480px) {
     .dos-columnas {
