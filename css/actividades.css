@@ -400,14 +400,14 @@ box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
 .imagenreco{
     width: 703px;
     height: 540px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)),url(/img/Refugios-ACTIVIDADES/Recomendaciones-caminatas-trekking-escaladas-Patagonia-Argentina.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)),url(../img/Refugios-ACTIVIDADES/Recomendaciones-caminatas-trekking-escaladas-Patagonia-Argentina.jpg);
     background-position: center;
     background-size: cover;}
     
     .imagenreco1{
         width: 703px;
         height: 540px;
-        background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)), url(/img/Refugios-ACTIVIDADES/mapa-refugios.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)), url(../img/Refugios-ACTIVIDADES/mapa-refugios.jpg);
         background-position: center;
         background-size: cover;}
         
