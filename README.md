@@ -1,10 +1,11 @@
-Grupo 12 - Comisión 24161 - Python Codo a Codo 2024
+Grupo 12 - Comisión PY-FullStack-24161 CaC - Python Codo a Codo 2024
 Docente: Erica Gentilini -
 
 Alumnos: 
-Fernando Suarez
-Nahuel Spelzini
-Natalia Meira
+Fernando Suarez - DNI: 31928426
+Nahuel Spelzini DNI: 45687729
+Natalia Meira - DNI: 25084012
+
 Alexis Bisnole - No pudo seguir
 Jualia Azimonti - No pudo seguir
 
