@@ -75,6 +75,17 @@ header {
     display: none;
 }
 
+.container-lista-mochilas{
+    display: flex;
+    align-items: center;
+}
+@media (min-width: 480px) {
+    .container-lista-mochilas {
+flex-wrap: wrap;  
+
+  }
+}
+
 @media(max-width:1023px) {
     .menu {
         padding: 30px ;
@@ -310,7 +321,6 @@ h2, h3, h4 {
 .Mi-Perfil .Arma-tu-mochila {
     padding-bottom: 5%;
         padding-top: 1%;
-       
         display: flex;
         flex-direction: column;
 }
@@ -385,7 +395,14 @@ padding-top: 50px ;
     align-items: center;
     margin-bottom: 10px;
 }
+.Nuevo-item-mochila {
+    display: flex;
+    flex-direction: row;
+align-items: center;
+    gap: 10px;
+    width: 700px;
 
+}
 .acciones {
     display: flex;
     padding: 10px 0px;
