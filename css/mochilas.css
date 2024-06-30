@@ -75,19 +75,12 @@ header {
     display: none;
 }
 
-.container-lista-mochilas{
-    display: flex;
-    align-items: center;
-    width: 100%;
-
-}
-
 
 @media (min-width: 480px) {
     .container-lista-mochilas {
 flex-wrap: wrap;  
 
-  }
+ }
 }
 
 @media(max-width:1023px) {
@@ -144,7 +137,7 @@ flex-wrap: wrap;
 
 .banner{
     width:100%;
-    height: 500px;
+    height: 450px;
     display: flex;
     align-items: center;
     text-align: center;
@@ -181,14 +174,6 @@ flex-wrap: wrap;
     align-items: center;
 
 }
-.header-txt .contorno{
-    color: transparent;  /*Hacer el texto transparente para que solo se vea el contorno */
-    -webkit-text-stroke: 2px rgb(255, 255, 255);  /*Añadir un contorno de 2px en negro */
-    font-size: 6vw;
-    text-transform: uppercase;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 900;
-}
 
 .header-txt p{
     margin-top: 150px;
@@ -213,19 +198,6 @@ flex-wrap: wrap;
 
 .btn-1:hover {
     background-color: #EE6300;
-}
-.btn-2 {
-    text-transform: uppercase;
-    color: #FEDCC4;
-    background-color: #FF7C20;
-    box-shadow: 0 0 20px rgba(255, 255, 255, 0.4);
-    font-family: "Inter", sans-serif;
-    font-weight: bold;
-    text-decoration: none;
-    text-align: center;
-    padding: 16px 70px;
-    border-radius: 10px;   
-
 }
 
 a {
@@ -313,15 +285,33 @@ h2, h3, h4 {
             }
     }
 .Fondo {
-    justify-content: center;
     padding-top: 40px;
     padding-bottom: 90px;
-    padding-right: 20%;
-    padding-left: 20%;
-    background-color: #273749;
+padding-left: 20%;
+padding-right: 20%;
+background-color: #273749;
 
 }
+.aaa {
+display: flex;
+flex-direction: row;
+gap: 10px;
 
+}
+.fg {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+}
+
+.fd {
+    display: flex;
+    flex-direction: column;
+}
+
+.ListaDeItemsCreados {
+    padding-top: 20px;
+}
 .Mi-Perfil .Arma-tu-mochila {
     padding-bottom: 5%;
         display: flex;
@@ -367,51 +357,6 @@ h2, h3, h4 {
 
 }
 
-
-.Mis-Mochilas {
-display: flex;
-flex-direction: column;
-padding-top: 50px;
-flex-basis: auto;
-
-}
-
-
-.container-lista-mochilas-creadas {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 10px;
-    width: 700px;
-    height: 60px;
-    justify-content: space-between;
-
-
-}
-
-
-
-.container-crear-items-en-mochila {
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-    width: 400px;
-    align-items: center;
-    margin-bottom: 10px;
-    margin-top: 10px;
-}
-.Nuevo-item-mochila {
-    display: flex;
-    flex-direction: row;
-align-items: center;
-gap: 10px;
-width: 100%;
-
-}
-.col-md-6 {
-width: 100%;
-
-}
 .acciones {
     display: flex;
     padding: 10px 0px;
@@ -459,7 +404,7 @@ border-color: #FF7C20;
     text-decoration: none;
     }
 
- .volver {
+.volver {
 text-decoration: underline; }   
 
 .footer-info {
